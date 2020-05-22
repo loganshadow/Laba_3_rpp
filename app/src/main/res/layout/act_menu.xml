@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ActivityMenu">
+
+    <Button
+            android:id="@+id/btn_openDB"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="list of students"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+    <Button
+            android:id="@+id/btn_addItemDB"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Add student"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+    <Button
+            android:id="@+id/btn_replace"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Change last record"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+
+</LinearLayout>
